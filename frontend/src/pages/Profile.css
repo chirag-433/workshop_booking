@@ -1,0 +1,115 @@
+.profile-layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 24px;
+  padding-bottom: 60px;
+  align-items: start;
+}
+
+/* Sidebar */
+.profile-sidebar { position: sticky; top: calc(var(--nav-h) + 20px); }
+
+.profile-card { padding: 28px 24px; text-align: center; }
+
+.profile-avatar {
+  width: 72px; height: 72px;
+  background: var(--brand);
+  color: #fff;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Syne', sans-serif;
+  font-weight: 800; font-size: 26px;
+  margin: 0 auto 14px;
+  letter-spacing: 1px;
+}
+
+.profile-card__name { font-size: 1.15rem; margin-bottom: 8px; }
+.profile-card__role { margin-bottom: 16px; }
+
+.profile-card__info {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.profile-card__info li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  word-break: break-word;
+}
+.profile-card__info li span { flex-shrink: 0; font-size: 15px; }
+
+/* Main panel */
+.profile-main { display: flex; flex-direction: column; gap: 20px; }
+
+.profile-section-title { font-size: 1.15rem; margin-bottom: 20px; }
+
+/* Edit form */
+.profile-edit { padding: 28px; }
+.profile-edit__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 20px;
+}
+.profile-edit__actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Workshop history */
+.profile-workshops { padding: 28px; }
+
+.profile-workshops__empty {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--text-secondary);
+}
+
+/* Mobile cards — shown on small screens */
+.profile-workshops__cards { display: none; }
+
+.pw-item {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  margin-bottom: 10px;
+}
+.pw-item__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.pw-item__type { font-weight: 600; font-size: 15px; }
+.pw-item__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+/* Desktop table — hidden on small screens */
+.profile-workshops__table { display: block; }
+
+@media (max-width: 900px) {
+  .profile-layout { grid-template-columns: 1fr; }
+  .profile-sidebar { position: static; }
+  .profile-card { display: flex; align-items: center; gap: 20px; text-align: left; flex-wrap: wrap; }
+  .profile-avatar { margin: 0; flex-shrink: 0; }
+  .profile-card__info { display: none; }
+}
+
+@media (max-width: 640px) {
+  .profile-edit__grid { grid-template-columns: 1fr; }
+  .profile-workshops__cards { display: block; }
+  .profile-workshops__table { display: none; }
+  .profile-edit { padding: 20px 16px; }
+  .profile-workshops { padding: 20px 16px; }
+}
