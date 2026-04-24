@@ -159,7 +159,3 @@ The most challenging part was implementing the dynamic styling and responsive be
 3. Applying conditional styling that triggers smooth CSS transitions to gracefully alter the layout across different states and screen sizes
 
 ---
-
-<p align="center">
-  Made with ❤️ by <a href="https://github.com/chirag-433">Chirag</a> · FOSSEE, IIT Bombay
-</p>
