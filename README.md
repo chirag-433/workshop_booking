@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge" alt="License" />
 </p>
 
-<h1 align="center">🎓 Workshop Booking — FOSSEE, IIT Bombay</h1>
+<h1 align="center">Workshop Booking — FOSSEE, IIT Bombay</h1>
 
 <p align="center">
   <strong>A modern platform for coordinators to book FOSS workshops — redesigned with React for a premium, mobile-first experience.</strong>
@@ -13,26 +13,26 @@
 
 ---
 
-## 🎬 Demo
+## Demo
 
 https://github.com/user-attachments/assets/a634868a-308e-4caf-aa54-4125097c577a
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---------|-------------|
-| 📅 **Workshop Booking** | Coordinators can propose workshop dates that suit their institution's schedule |
-| 📊 **Live Statistics** | Track workshops on a live map of India with pie charts and monthly counts |
-| ✅ **Instant Status** | Know whether your workshop is confirmed, pending, or postponed in real-time |
-| 🔔 **Email Reminders** | Automated reminders sent to coordinators and instructors before every session |
-| 👤 **Profile Management** | View/post comments on coordinator profiles with full instructor statistics |
-| 🗺️ **India Map View** | Workshops taken across the map of India with region-level breakdowns |
+| **Workshop Booking** | Coordinators can propose workshop dates that suit their institution's schedule |
+| **Live Statistics** | Track workshops on a live map of India with pie charts and monthly counts |
+| **Instant Status** | Know whether your workshop is confirmed, pending, or postponed in real-time |
+| **Email Reminders** | Automated reminders sent to coordinators and instructors before every session |
+| **Profile Management** | View/post comments on coordinator profiles with full instructor statistics |
+| **India Map View** | Workshops taken across the map of India with region-level breakdowns |
 
 ---
 
-## 🚀 Local Setup Instructions
+## Local Setup Instructions
 
 ### Prerequisites
 - **Python 3.8+** with `pip`
@@ -73,7 +73,7 @@ npm install
 npm start
 ```
 
-### 🌐 Access the App
+### Access the App
 
 | Service | URL |
 |---------|-----|
@@ -81,54 +81,54 @@ npm start
 | Django Backend | [http://localhost:8000](http://localhost:8000) |
 | Admin Panel | [http://localhost:8000/admin](http://localhost:8000/admin) |
 
-> 📝 **Note:** Check [`docs/Getting_Started.md`](./docs/Getting_Started.md) for more detailed info on initial group and permission configuration.
+> **Note:** Check [`docs/Getting_Started.md`](./docs/Getting_Started.md) for more detailed info on initial group and permission configuration.
 
 ---
 
-## 📸 Visual Showcase
+## Visual Showcase
 
 Below are screenshots highlighting the modern UI/UX improvements, improved responsiveness, and overall functionality of the redesigned React frontend.
 
-### 🏠 Home Page
+### Home Page
 *Rich hero section with floating workshop cards, statistics bar, feature grid, and clear calls-to-action.*
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/212fdcdb-9b3c-4f17-913c-000b9ed69ce9" alt="Home Page" width="90%" />
 </p>
 
-### 🔐 Login Page
+### Login Page
 *Minimalist authentication form with high contrast and accessibility.*
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/920d4491-746b-4b92-a79f-e3bfed69744a" alt="Login Page" width="90%" />
 </p>
 
-### 📋 Registration Page
+### Registration Page
 *Comprehensive coordinator registration form with organized two-column layout.*
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/3f0c1f84-eef9-464b-a2a3-f65655ae6aeb" alt="Registration Page" width="90%" />
 </p>
 
-### 📝 Propose a Workshop
+### Propose a Workshop
 *Intuitive proposal form with step-by-step guidance sidebar for coordinators.*
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/2fde2dc8-0f97-4543-9050-f0fd4167bf17" alt="Propose Workshop" width="90%" />
 </p>
 
-### 📊 Workshop Status Dashboard
+### Workshop Status Dashboard
 *Modern dashboard with status summary cards, filterable data table, and search.*
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a0bd3709-d97c-4bc2-81f1-57082af36a96" alt="Workshop Status Dashboard" width="90%" />
 </p>
 
-> 🎬 **See the full walkthrough in the [Demo Video](#-demo) above!**
+> **See the full walkthrough in the [Demo Video](#demo) above!**
 
 ---
 
-## 💭 Project Reflection
+## Project Reflection
 
 ### What design principles guided your improvements?
 
