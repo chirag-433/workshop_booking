@@ -1,3 +1,8 @@
+<img width="1919" height="863" alt="Screenshot 2026-04-24 150259" src="https://github.com/user-attachments/assets/a0bd3709-d97c-4bc2-81f1-57082af36a96" />
+<img width="1918" height="910" alt="Screenshot 2026-04-24 150723" src="https://github.com/user-attachments/assets/2fde2dc8-0f97-4543-9050-f0fd4167bf17" />
+<img width="1919" height="965" alt="Screenshot 2026-04-24 145705" src="https://github.com/user-attachments/assets/212fdcdb-9b3c-4f17-913c-000b9ed69ce9" />
+<img width="1919" height="866" alt="Screenshot 2026-04-24 150238" src="https://github.com/user-attachments/assets/920d4491-746b-4b92-a79f-e3bfed69744a" />
+<img width="1919" height="914" alt="Screenshot 2026-04-24 150251" src="https://github.com/user-attachments/assets/3f0c1f84-eef9-464b-a2a3-f65655ae6aeb" />
 <p align="center">
   <img src="https://img.shields.io/badge/React-19.2-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React" />
   <img src="https://img.shields.io/badge/Django-3.0.7-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
