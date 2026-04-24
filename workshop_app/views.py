@@ -39,7 +39,9 @@ __credits__ = ["Mahesh Gudi", "Aditya P.", "Ankit Javalkar",
 # Helper functions
 
 def is_email_checked(user):
-    return user.profile.is_email_verified
+    if hasattr(user, 'profile'):
+        return user.profile.is_email_verified
+    return False
 
 
 def is_instructor(user):
@@ -60,6 +62,8 @@ def index(request):
     """Landing Page : Redirect to login page if not logged in
                       Redirect to respective landing page according to position"""
     user = request.user
+    if user.is_superuser:
+        return redirect('/admin')
     if user.is_authenticated and is_email_checked(user):
         return redirect(get_landing_page(user))
 
@@ -81,7 +85,10 @@ def user_login(request):
         form = UserLoginForm(request.POST)
         if form.is_valid():
             user = form.cleaned_data
-            if user.profile.is_email_verified:
+            if user.is_superuser:
+                login(request, user)
+                return redirect('/admin')
+            elif is_email_checked(user):
                 login(request, user)
                 return redirect(get_landing_page(user))
             else:
