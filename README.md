@@ -1,8 +1,3 @@
-<img width="1919" height="863" alt="Screenshot 2026-04-24 150259" src="https://github.com/user-attachments/assets/a0bd3709-d97c-4bc2-81f1-57082af36a96" />
-<img width="1918" height="910" alt="Screenshot 2026-04-24 150723" src="https://github.com/user-attachments/assets/2fde2dc8-0f97-4543-9050-f0fd4167bf17" />
-<img width="1919" height="965" alt="Screenshot 2026-04-24 145705" src="https://github.com/user-attachments/assets/212fdcdb-9b3c-4f17-913c-000b9ed69ce9" />
-<img width="1919" height="866" alt="Screenshot 2026-04-24 150238" src="https://github.com/user-attachments/assets/920d4491-746b-4b92-a79f-e3bfed69744a" />
-<img width="1919" height="914" alt="Screenshot 2026-04-24 150251" src="https://github.com/user-attachments/assets/3f0c1f84-eef9-464b-a2a3-f65655ae6aeb" />
 <p align="center">
   <img src="https://img.shields.io/badge/React-19.2-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React" />
   <img src="https://img.shields.io/badge/Django-3.0.7-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
@@ -94,32 +89,42 @@ npm start
 
 Below are screenshots highlighting the modern UI/UX improvements, improved responsiveness, and overall functionality of the redesigned React frontend.
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <strong>🏠 Home Page</strong><br/>
-      <em>Hero section with floating workshop cards and clear CTAs</em><br/><br/>
-      <img src="./docs/images/home-after.png" alt="Home Page" width="100%" />
-    </td>
-    <td align="center" width="50%">
-      <strong>🔐 Login Page</strong><br/>
-      <em>Minimalist authentication with high contrast & accessibility</em><br/><br/>
-      <img src="./docs/images/login-after.png" alt="Login Page" width="100%" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <strong>📝 Propose a Workshop</strong><br/>
-      <em>Intuitive form with step-by-step guidance for coordinators</em><br/><br/>
-      <img src="./docs/images/propose-after.png" alt="Propose Workshop" width="100%" />
-    </td>
-    <td align="center" width="50%">
-      <strong>📊 Workshop Status Dashboard</strong><br/>
-      <em>Modern dashboard with filterable data table & status cards</em><br/><br/>
-      <img src="./docs/images/status-after.png" alt="Workshop Status" width="100%" />
-    </td>
-  </tr>
-</table>
+### 🏠 Home Page
+*Rich hero section with floating workshop cards, statistics bar, feature grid, and clear calls-to-action.*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/212fdcdb-9b3c-4f17-913c-000b9ed69ce9" alt="Home Page" width="90%" />
+</p>
+
+### 🔐 Login Page
+*Minimalist authentication form with high contrast and accessibility.*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/920d4491-746b-4b92-a79f-e3bfed69744a" alt="Login Page" width="90%" />
+</p>
+
+### 📋 Registration Page
+*Comprehensive coordinator registration form with organized two-column layout.*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3f0c1f84-eef9-464b-a2a3-f65655ae6aeb" alt="Registration Page" width="90%" />
+</p>
+
+### 📝 Propose a Workshop
+*Intuitive proposal form with step-by-step guidance sidebar for coordinators.*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2fde2dc8-0f97-4543-9050-f0fd4167bf17" alt="Propose Workshop" width="90%" />
+</p>
+
+### 📊 Workshop Status Dashboard
+*Modern dashboard with status summary cards, filterable data table, and search.*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a0bd3709-d97c-4bc2-81f1-57082af36a96" alt="Workshop Status Dashboard" width="90%" />
+</p>
+
+> 🎬 **See the full walkthrough in the [Demo Video](#-demo) above!**
 
 ---
 
