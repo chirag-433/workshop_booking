@@ -17,7 +17,29 @@
 * Workshop Related Features
     > Instructors can Accept, Reject or Delete workshops based on their preference, also they can postpone a workshop based on coordinators request.
 
-__NOTE__: Check docs/Getting_Started.md for more info.
+## Local Setup Instructions
+
+1. Install the required Python dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Generate and apply database migrations (ensure `cms` and `teams` apps are explicitly generated):
+   ```bash
+   python manage.py makemigrations cms teams
+   python manage.py makemigrations
+   python manage.py migrate
+   ```
+3. (Optional) Create a superuser for the admin panel:
+   ```bash
+   python manage.py createsuperuser
+   ```
+4. Start the Django development server:
+   ```bash
+   python manage.py runserver
+   ```
+5. Visit `http://localhost:8000/` in your browser.
+
+__NOTE__: Check `docs/Getting_Started.md` for more detailed info on initial group configuration.
 
 ## Project Reflection
 
